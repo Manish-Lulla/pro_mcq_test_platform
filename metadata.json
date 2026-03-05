@@ -1,0 +1,5 @@
+{
+  "name": "Pro MCQ Test Platform",
+  "description": "A professional, fully functional React-based MCQ Test Application with randomized questions, real-time timer, and performance history.",
+  "requestFramePermissions": []
+}
