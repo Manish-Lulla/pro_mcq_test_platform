@@ -1,20 +1,79 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Pro MCQ Test Platform
+Overview
 
-# Run and deploy your AI Studio app
+Pro MCQ Test Platform is a React + TypeScript based web application designed to help users practice and improve their aptitude skills through a large collection of multiple-choice questions. The platform provides 1800+ MCQs covering important aptitude areas such as Verbal Ability, Numerical Ability, and Logical Reasoning.
 
-This contains everything you need to run your app locally.
+The goal of this project is to create a simple and efficient learning platform where users can practice questions, test their understanding, and strengthen their problem-solving abilities commonly required for competitive exams and technical placements.
 
-View your app in AI Studio: https://ai.studio/apps/50bb5bc7-adb3-477b-a736-07b91d63e878
+Features
 
-## Run Locally
+Practice 1800+ Multiple Choice Questions
 
-**Prerequisites:**  Node.js
+Covers Verbal Ability, Numerical Ability, and Logical Reasoning
 
+Clean and responsive React-based user interface
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Structured question dataset using JSON
+
+AI support using Gemini API for intelligent interactions
+
+Fast performance powered by Vite
+
+Tech Stack
+
+React.js
+
+TypeScript
+
+Vite
+
+HTML & CSS
+
+JSON (for MCQ dataset)
+
+Google Gemini API
+
+Project Structure
+src
+ ├── data
+ │    └── questions.json        # MCQ dataset
+ ├── services
+ │    └── geminiService.ts      # Gemini AI integration
+ ├── App.tsx                    # Main application component
+ ├── main.tsx                   # Application entry point
+ ├── types.ts                   # TypeScript types
+ └── index.css                  # Styling
+Installation
+
+Clone the repository:
+
+git clone https://github.com/Manish-Lulla/pro-mcq-test-platform.git
+
+Move into the project folder:
+
+cd pro-mcq-test-platform
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+Future Improvements
+
+User login and authentication
+
+Timed mock tests
+
+Score tracking and analytics
+
+Difficulty level filtering
+
+Question explanations
+
+Leaderboards
+
+Purpose of the Project
+
+This project demonstrates the development of a modern React + TypeScript web application designed for educational purposes. It showcases frontend development, structured data handling, and integration with external AI services.
